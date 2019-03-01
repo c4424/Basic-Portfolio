@@ -1,5 +1,6 @@
 html {
     background: #777575;  
+    background-image: url(../Images/backgrounds/qbkls/qbkls.png);
 }
 
 h2 {
@@ -12,19 +13,21 @@ h2 {
 
 div {
     background-image: url("C:\Users\c4424\Desktop\Basic-Portfolio\Assets\Images\backgrounds\qbkls\qbkls.png");
-    border: 1px solid black;
+    
     float: left;
     margin: 25px 50px;   
 }
 
 .nav {
-    background-color: aquamarine;
+    background-color: white;
     text-align: right;
     padding: 20px 0 20px 0;
+    border-bottom: 1px solid #666666;
 }
 
 .nav> li {
     display: inline-block;
+    background-color: white;
     padding: 0 25px 0 25px;
     font-size: 20px;
 }
@@ -43,6 +46,7 @@ div {
     position: relative;
     bottom: 30px;
     color:white;
+    background-color: aquamarine;
     float: left;
     font-size: 30px;
     font-weight: bold;
@@ -71,6 +75,7 @@ footer {
     color: white;
     width: 100%;
     border-top: 8px solid #4aaaa5;
+    background-color: #666666;
     font-family: "Times New Roman";
     text-align: center;
     padding: 10px 40px;
